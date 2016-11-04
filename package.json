@@ -1,0 +1,12 @@
+{
+  "name": "webpack",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aleksey Leshko <alekseyleshko@gmail.com> (https://github.com/AlekseyLeshko)",
+  "license": "MIT"
+}
