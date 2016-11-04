@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: './entry.js',
   output: {
@@ -8,6 +10,10 @@ module.exports = {
     loaders: [{
       test: /\.css$/,
       loader: 'style!css'
+    }, {
+      test: /\.js$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader'
     }]
   }
 };
