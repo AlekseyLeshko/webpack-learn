@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack-dev-server": "webpack-dev-server --progress --colors --port 8081"
+    "dev": "webpack-dev-server"
   },
   "keywords": [],
   "author": "Aleksey Leshko <alekseyleshko@gmail.com> (https://github.com/AlekseyLeshko)",

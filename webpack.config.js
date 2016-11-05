@@ -15,6 +15,10 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'babel-loader'
     }]
+  },
+  devServer: {
+    inline: true,
+    port: 8081
   }
 };
 
